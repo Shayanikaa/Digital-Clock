@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    width: 120%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerCircle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercircle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count{
+    width: 250px;
+    height: 300px;
+    overflow: auto;
+    list-style: none;
+    color: white;
+}
+
+.hours{
+    color: white;
+    font-size: 35px;
+}
+
+.min{
+    color: white;
+    font-size: 30px;
+}
+
+.sec{
+    color: white;
+    font-size: 25px;
+}
+
+.allButtons{
+    width: 250px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.pbtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.paubtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.rebtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.pbtn:hover{
+    background-color: white;
+    color: black;
+}
+.paubtn:hover{
+    background-color: white;
+    color: black;
+}
+.rebtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.lap-item{
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    margin-top: 34px;
+    background-color: rgb(214, 55, 55);
+    text-align: center;
+    position: relative;
+    border-radius: 50px;
+}
+
+.number{
+    color: white;
+}
+
+.time-stamp{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.clear{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+    
+    
+}
+.hidden{
+    display: hidden;
+}
